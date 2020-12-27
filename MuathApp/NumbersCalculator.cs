@@ -59,6 +59,8 @@ namespace SmartCalculator
             string lastPart = "";
 
             char currentCharacter;
+
+            // Loop
             for (int i = 0; i < operation.Length; i++)
             {
                 currentCharacter = operation[i];
